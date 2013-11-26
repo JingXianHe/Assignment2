@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="jQuery代码,图片特效,jQuery广告代码,jQuery特效代码" />
+<meta name="description" content="此代码内容为jQuery不同树叶掉落特效代码，属于站长常用代码，更多图片特效代码请访问jQuery插件库。" />
+<title>jQuery不同树叶掉落特效_jQuery插件库</title>
+<link rel="stylesheet" type="text/css" href="css/lrtk.css" />
+<style type="text/css">
+body { background-color: #E8FAFF; }
+</style>
+<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+<!-- 代码 开始 -->
+<div class="Upper">
+	<table style="width:100%" border="0" cellspacing="0" cellpadding="0" align="center">
+		<tr>
+			<td>
+			<table style="width:600px" border="0" cellspacing="0" cellpadding="0" align="center">
+
+				<tr>
+					<td style="padding:70px 0 0" align="left" width="385">
+					<h1 style="color:#f4f2ed"></h1>
+					<p style="color:#d3f1a0"></p>
+					</td>
+					<td style="padding:15px 0 0" align="right" width="215">
+					<img src="images/Autom-Leaf.png"> </td>
+				</tr>
+				<tr>
+					<td style="padding:10px 0" colspan="2" align="right"></td>
+				</tr>
+			</table>
+			<table style="width:600px" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<td class="content" style align="left" valign="top" width="600">
+					<table border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td style="padding:20px 0 25px 95px" align="left">
+
+							</td>
+						</tr>
+
+
+						<tr>
+							<td style="padding:0 0 25px 95px" valign="top">
+							</p>
+							<div align="center">
+								<button id="botAgregar">Click to make more leaves</button></div>
+							<p></p>
+							</td>
+						</tr>
+
+
+					</table>
+					</td>
+				</tr>
+			</table>
+
+			</td>
+		</tr>
+	</table>
+</div>
+<script type="text/javascript">$.AutomLeafStart({leafsfolder:"images/",howmanyimgsare:8,initialleafs:10,maxYposition:-10,multiplyclick:true,multiplynumber:2,infinite:true,fallingsequence:4000});$("#botAgregar").on("click",function(){$.AutomLeafAdd({leafsfolder:"images/",add:8,})});</script>
+<!-- 代码 结束 -->
+</body>
+</html>

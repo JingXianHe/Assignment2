@@ -1,0 +1,103 @@
+﻿<!--
+Website name:Fetchingly
+
+Name       : JingXian He 
+Description: A two-column, fixed-width design with dark color scheme and moving sliders.This is home page describes 
+             the basic information of the company,summarizing	what I	did. My	mission	statement	includes reasons	
+             for	doing	this website
+Version    : 1.0
+Released   : 20130925
+File Name  :index.html
+
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fetchingly</title>
+<script type="text/javascript" src="Javascript/javaScript.js"></script>
+    <script>
+ 
+    var ua = navigator.userAgent;
+        if ((ua.match(/iPhone/i)) || (ua.match(/Android/i))) {
+            location.replace("http://webdesign4.georgianc.on.ca/~200238257/comp2068/test/Home.html");
+        }
+
+    </script>
+<link href= "Css/default.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+    <!--This document dispaly the homepage for the web site
+        This is Body section
+        -->
+<body onload="dd()">
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+            <!--This is Logo-->
+			<h1><a href="#"><img src="images1/LOGO.png" alt="web" /></a></h1>
+			<h4>You are here:<a href="index.html" title="">Homepage</a></h4>
+		</div>
+        <!--This is navigation bar, when click it goes to different pages-->
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="index.html" title=""><img src="images1/cloud_64x64.png" width="20" height="20"/>Homepage</a></li>
+				<li class="icon icon-ok"><a href="index1.html" accesskey="2" title="">About Me</a></li>
+				<li class="icon icon-ok"><a href="index2.html" accesskey="3" title="">Projects</a></li>
+				<li class="icon icon-ok"><a href="index3.html" accesskey="4" title="">Service</a></li>
+                <li class="icon icon-ok"><a href="https://github.com/JingXianHe/PortFolioWeb1st" accesskey="4" title="">GitHub</a></li>
+				<li class="icon icon-ok"><a href="index4.html" accesskey="5">Contact Me</a></li>
+			</ul>
+		</div>
+		
+	</div>
+</div>
+        <!--This is slider which display images automatically-->
+		<!-- ****************************************************************************************************************** -->
+
+			<div id="slider">
+						
+				<a id="feature6"><img id="feature5" alt="" width="1000" height="375"/></a>
+			
+			</div>
+			
+                
+
+		<!-- ****************************************************************************************************************** -->
+    <!--This is get connect panel-->
+<div id="wrapper">
+	<div id="page" class="container">
+		<div id="content">
+			<div class="title">
+				<h2>Welcome to my website</h2>
+				<span class="byline">design web applications that suit you</span></div>
+			<p>This is <strong>Fetchingly</strong>, a free, fully standards-compliant CSS template designed for study. I created this website to improve my web programming skills, and show people the projects I created. Another reason why I created this website is that I like web programming. This template is free, so you are pretty much free to do whatever you want with it (even use it commercially). Aside from that, have fun with it :) </p>
+			</div>
+		<div id="sidebar">
+			<div id="stwo-col">
+				<div class="sbox1">
+					<h2>Keep Connected</h2>
+					<ul class="style2">
+						<li><a href="https://www.facebook.com/ho.jingxian.7"><img src="images1/facebook.png" alt="facebook" class="icon" /></a></li>
+						<li><a href="https://plus.google.com/u/0/106279209018092692168?tab=wX#106279209018092692168/posts?tab=wX"><img src="images1/Google.png" alt="Google" class="icon" /></a></li>
+						<li><a href="https://twitter.com/JingXianHe"><img src="images1/Twitter.png" alt="Twitter" class="icon" /></a></li>
+					</ul>
+				</div>
+				<div class="sbox1">
+					<h2>....</h2>
+					<ul class="style2">
+						<li><a href="http://www.youtube.com/channel/UC--p9j3hjvYZI6uEJ0QgM9Q/videos"><img src="images1/Youtube.png" alt="Youtube" class="icon" /></a></li>
+						<li><a href="http://www.linkedin.com/pub/jingxian-he/7b/92b/b49"><img src="images1/Linked In.png" alt="Linked" class="icon" /></a></li>
+						<li><a href="https://github.com/JingXianHe"><img src="images1/github.png" alt="github" class="icon" /></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+    <!--This is copyright section-->
+<div id="copyright" class="container">
+	<p>Copyright (c) 2013 All rights reserved. | Photos by JingXian He | Design by <a href="https://github.com/JingXianHe" rel="JingXian He">JingXian He</a>.</p>
+</div>
+</body>
+</html>

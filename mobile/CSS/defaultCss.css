@@ -1,0 +1,190 @@
+﻿/*
+ *   Website name:JQuery Mobile Web
+ *
+ *   Name       : JingXian He 
+ *   Description: A responsive website for tablet and smart phone. As the number of website visitors grows, JQuery is becoming important. So I used JQuery Mobile to build this website. 
+ *           This is a website describes the basic information of the company,summarizing	what I	did. My	mission	statement	includes reasons	
+ *            for	doing	this website.
+ *      Version    : 1.0
+ *       Released   : 20131025
+ *     File Name  :defaultCss.css
+ *   
+ */
+
+            div {
+                font-family: 'Terminal Dosis', sans-serif;
+                font-size: 20px;
+                text-shadow: 3px 3px 3px #999;
+            }
+            img {
+                max-width: 100%;
+            }
+
+            #app-pic {
+                width: 35%;
+                height: 35%;
+                float: left;
+            }
+			
+
+            #app-name {
+                width: 40%;
+                margin-left: 40%;
+                min-height: 80px;
+            }
+
+            #slider {
+                margin: 0em auto 0em auto;
+                width: 100%;
+                position: relative;
+            }
+
+                #slider .previous-button {
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    background-color: transparent;
+                }
+
+                #slider .next-button {
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    background-color: transparent;
+                }
+
+                #slider .viewer {
+                    width: 100%;
+                    height: 100%;
+                    margin: 0 auto;
+                    overflow: hidden;
+                }
+
+            #app-name {
+                width: 50%;
+                margin-left: 50%;
+                min-height: 80px;
+            }
+
+            #app-pic {
+                width: 90px;
+                height: 90px;
+                float: left;
+            }
+
+            #leftButton img {
+                width: 24px;
+                height: 24px;
+            }
+
+            #rightButton img {
+                width: 24px;
+                height: 24px;
+            }
+
+            @media all and (min-width: 568px) {
+                /* Tablet styles go here */
+
+                #app-pic {
+                    width: 20%;
+                    height: 20%;
+                }
+
+                #app-name {
+                    width: 30%;
+                    float: left;
+                    margin: auto;
+                }
+
+                #app-contact {
+                    width: 30%;
+                    clear: left;
+                    float: right;
+                }
+
+                #app-work {
+                    clear: left;
+                    width: 63%;
+                    padding-top: 1%;
+                }
+
+                #app-interests {
+                    width: 63%;
+                    float: left;
+                }
+
+                #app-social {
+                    width: 30%;
+                    clear: right;
+                    float: right;
+                }
+
+                #leftButton img {
+                    width: 36px;
+                    height: 36px;
+                }
+
+                #rightButton img {
+                    width: 36px;
+                    height: 36px;
+                }
+            }
+
+            @media all and (min-width: 1024px) {
+                /* Desktop styles go here */
+                #home {
+                    position: relative;
+                }
+
+                #app-pic {
+                    position: absolute;
+                    top: 125px;
+                    left: 15px;
+                    width: 150px;
+                    height: 150px;
+                    text-align: center;
+                }
+
+                #app-name {
+                    position: absolute;
+                    top: 300px;
+                    left: 15px;
+                    width: 22%;
+                    margin: 0;
+                }
+
+                #app-contact {
+                    position: absolute;
+                    top: 350px;
+                    left: 15px;
+                    width: 22%;
+                }
+
+                #app-work {
+                    margin-left: 25%;
+                    width: 50%;
+                    padding: 0;
+                }
+
+                #app-interests {
+                    margin-left: 25%;
+                    width: 50%;
+                }
+
+                #app-social {
+                    position: absolute;
+                    top: 100px;
+                    right: 15px;
+                    width: 22%;
+                }
+
+                #leftButton img {
+                    width: 42px;
+                    height: 42px;
+                }
+
+                #rightButton img {
+                    width: 42px;
+                    height: 42px;
+                }
+            }

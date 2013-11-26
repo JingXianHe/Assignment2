@@ -1,0 +1,128 @@
+﻿<!--
+Website name:JQuery Mobile Web
+
+Name       : JingXian He 
+Description: A responsive website for tablet and smart phone. As the number of website visitors grows, JQuery is becoming important. So I used JQuery Mobile to build this website. 
+             This is a website describes the basic information of the company,summarizing	what I	did. My	mission	statement	includes reasons	
+             for	doing	this website.
+Version    : 1.0
+Released   : 20131025
+File Name  :ContactMe.html
+
+-->
+<!DOCTYPE html>
+ <html>
+   <head>
+     <title>Developing with jQuery Mobile</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+       <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Terminal+Dosis' type='text/css'>
+       <link rel="stylesheet" href="CSS/defaultCss.css" />
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+   </head>
+   <body>
+     <div data-role="page" id="home" data-theme="a">
+       <div data-role="header">
+		<h1>My Portfolio</h1>
+		<a href="#" data-role="button" data-rel="back" data-theme="b">Back</a>
+		<div data-role="navbar">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="aboutMe.html" >About	Me</a></li>
+                <li><a href="ContactMe.html" class="ui-btn-active  ui-statepersist">Contact	Me</a></li>
+            </ul>
+		</div>
+	   </div>
+       <div data-role="content">
+         <div id="app-pic" ><img src="images/LOGO2.png" alt="My logo" /></div>
+         <div id="app-name"><h4>Portfolio Programmer</h4></div>
+         <div id="app-contact">
+           <ul data-role="listview" data-theme="d" data-divider-theme="e" data-inset="true">
+             <li data-role="list-divider">Contact Information</li>
+             <li>
+               <h3>Phone number</h3>
+               <p>Mobile: 705-791-6542</p>
+             </li>
+             <li>
+               <h3>Email</h3>
+               <p>aomenlao@gmail.com</p>
+             </li>
+             <li>
+               <h3>Websites</h3>
+               <p>webdesign4.georgianc.on.ca/</p>
+             </li>
+           </ul>
+         </div>
+         <div id="app-work">
+             <ul data-role="listview" data-theme="d" data-divider-theme="a" data-inset="true">
+ 				<li data-role="list-divider">My Work</li>
+ 				<li>
+ 					<h3>28 Hours: responsive Site Layout</h3>
+ 					<p>Mobile-Specific	Web	App	for	my	portfolio	site</p>
+ 				</li>
+ 				<li>
+ 					<h3>Start-up</h3>
+ 					<p>Lead to success through innovation.</p>
+ 				</li>
+ 				<li>
+ 					<h3>Meh Incorporated</h3>
+ 					<p>Engineered and designed a revolutionary new mobile app.</p>
+ 				</li>
+ 			</ul>
+        </div>
+        <div id="app-interests">
+          <ul data-role="listview" data-theme="a" data-divider-theme="a" data-inset="true">
+             <li data-role="list-divider">Project&Service</li>
+               <li>
+                   <a href="project.html">
+                       <img src="images/Poof.png" alt="project" />
+                       <h3>Project</h3>
+                   </a>
+               </li>
+             <li>
+                   <a href="Service.html">
+                       <img src="images/smartRSS.png" alt="service" />
+                       <h3>Service</h3>
+                   </a>
+               </li>
+			   <li>
+                   <a href="signin.htm" rel="external">
+                       <img src="images/smartRSS.png" alt="service" />
+                       <h3>Business Contact</h3>
+                   </a>
+               </li>
+           </ul>
+        </div>
+        <div id="app-social">
+          <ul data-role="listview" data-theme="d" data-divider-theme="b" data-inset="true">
+            <li data-role="list-divider">Social</li>
+            <li>
+              <h3>Twitter - <a href="https://twitter.com/JingXianHe">Follow me!</a></h3>
+              <p>loading twitter feed...</p>
+            </li>
+            <li>
+              <h3>Find me on Google+</h3>
+              <p>
+                <a href="http://www.google.ca">
+                  <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+                 </a>
+               </p>
+             </li>
+             <li>
+               <h3><a href="https://www.facebook.com/ho.jingxian.7">Friend me</a> on Facebook</h3>
+               <p>The world is a better place when we are all friends.</p>
+             </li>
+           </ul>
+         </div>
+       </div>
+         <div data-role="footer" data-position="fixed">
+             <div data-role="navbar">
+				<ul>
+					<li><a>&#169; 2013 JingXian He</a></li>
+				</ul>
+			</div>
+         </div>
+     </div>
+ </body>
+ </html>

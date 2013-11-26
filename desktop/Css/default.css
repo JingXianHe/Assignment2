@@ -1,0 +1,411 @@
+﻿
+/*********************************************************************************/
+/* Body Style                                                                   */
+/*********************************************************************************/
+html, body
+{
+	height: 100%;
+}
+/*set up font size, color, background-color
+font family and margin
+*/
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: #0C696E;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11pt;
+	font-weight: 300;
+	color: #6c6c6c
+}
+/*set up font size and color*/
+h1, h2, h3
+{
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	color: #454445;
+}
+
+p, ol, ul
+{
+	margin-top: 0;
+}
+/*set up  padding*/
+ol, ul
+{
+	padding: 0;
+	list-style: none;
+}
+/*set up  line height*/
+p
+{
+	line-height: 180%;
+}
+
+/*set up  margin
+*/
+.container
+{
+	margin: 0px auto;
+	width: 1200px;
+}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+.image
+{
+	display: inline-block;
+}
+
+.image img
+{
+	display: block;
+	width: 100%;
+}
+
+
+img.img-alignright {
+    float:right;
+    width:120px;
+    height:120px;
+}
+/*Picture in Navigation Bar*/
+
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+		
+ul.style2
+{
+	margin: 0;
+	padding-top: 1em;
+	list-style: none;
+}
+
+ul.style2 li
+{
+	border-top: solid 1px #E5E5E5;
+	padding: 0.80em 0 0.80em 0;
+	font-family: 0.80em;
+}
+
+ul.style2 li:before
+{
+	display: inline-block;
+	padding: 4px;
+	background: #0C696E;
+}
+
+ul.style2 a
+{
+	display: inline-block;
+	margin-left: 1em;
+}
+
+ul.style2 li:first-child
+{
+	border-top: 0;
+	padding-top: 0;
+
+}
+
+ul.style2 .icon
+{
+	color: #FFF;
+    width:30px;
+    height:30px;
+}
+
+
+
+
+
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+.title
+{
+	margin-bottom: 3em;
+}
+
+.title h2
+{
+	font-weight: 400;
+	font-size: 2.8em;
+	color: #323232;
+}
+
+.title .byline
+{
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.1em;
+	color: #6F6F6F;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+	
+
+#header
+{
+	position: relative;
+	height: 100px;
+}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+/*set the size of logo*/
+#logo
+{
+	position: absolute;
+	top: 2em;
+	left: 0;
+	width: 100%;
+}
+
+#logo h1
+{
+	display: inline-block;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #FFF;
+}
+
+#logo a
+{
+	text-decoration: none;
+	color: #FFF;
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+/*this is for the navigation bar style*/
+#menu
+{
+	position: absolute;
+	right: 0;
+	top: 3.2em;
+}
+
+#menu ul
+{
+	display: inline-block;
+}
+
+#menu li
+{
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+#menu li a, #menu li span
+{
+	display: inline-block;
+	margin-left: 0.50em;
+	padding: 0em 1.5em 0em 0.50em;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	font-size: 0.90em;
+	font-weight: 600;
+	text-transform: uppercase;
+	outline: 0;
+	color: #FFF;
+}
+
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+}
+
+#menu .current_page_item a
+{
+	color: #FFF;
+}
+
+#menu .icon
+{
+	display: inline-block;
+	color: #FFF;
+}
+
+
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#wrapper
+{
+	background: #FFF;
+}
+
+#page
+{
+	overflow: hidden;
+	padding: 6em 0em;
+}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+{
+	float: left;
+	width: 700px;
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+{
+	float: right;
+	width: 450px;
+}
+
+#stwo-col
+{
+	margin-top: 2em;
+}
+
+#stwo-col h2
+{
+	display: block;
+	padding-bottom: 1.5em;
+	letter-spacing: 0.10em;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #454445;
+}
+
+#stwo-col .sbox1
+{
+	float: left;
+	width: 210px;
+}
+
+#stwo-col .sbox2
+{
+	float: right;
+	width: 210px;
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+/*if copyright section overflow, it is going to be hidden*/
+#copyright
+{
+	overflow: hidden;
+	padding: 5em 0em;
+}
+
+#copyright p
+{
+	letter-spacing: 0.20em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.80em;
+	color: #ACCFFF;
+}
+
+#copyright a
+{
+	text-decoration: none;
+	color: #ACCFFF;
+}
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+{
+	margin: 0;
+	padding: 2em 0em 0em 0em;
+	list-style: none;
+}
+
+ul.contact li
+{
+	display: inline-block;
+	padding: 0em 0.30em;
+	font-size: 1em;
+}
+
+ul.contact li span
+{
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.contact li a
+{
+	color: #FFF;
+}
+
+ul.contact li a:before
+{
+	display: inline-block;
+	background: #3f3f3f;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+ul.contact li a.icon-twitter:before
+{
+	background: #2DAAE4;
+}
+
+ul.contact li a.icon-facebook:before
+{
+	background: #39599F;
+}
+
+ul.contact li a.icon-dribbble:before
+{
+	background: #C4376B;
+}
+
+ul.contact li a.icon-tumblr:before
+{
+	background: #31516A;
+}
+
+ul.contact li a.icon-rss:before
+{
+	background: #F2600B;
+}
+/*********************************************************************************/
+/* Working Form Sytle                                                                   */
+/*********************************************************************************/
+/*set the size of textarea*/
+# textarea{
+	width:600px;
+	height:50px;
+	border:1px;
+	background-color:#0C696E;
+}

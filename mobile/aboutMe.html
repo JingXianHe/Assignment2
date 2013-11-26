@@ -1,0 +1,145 @@
+﻿<!--
+Website name:JQuery Mobile Web
+
+Name       : JingXian He 
+Description: A responsive website for tablet and smart phone. As the number of website visitors grows, JQuery is becoming important. So I used JQuery Mobile to build this website. 
+             This is a website describes the basic information of the company,summarizing	what I	did. My	mission	statement	includes reasons	
+             for	doing	this website.
+Version    : 1.0
+Released   : 20131025
+File Name  :aboutMe.html
+
+-->
+<!DOCTYPE html>
+ <html>
+   <head>
+     <title>Developing with jQuery Mobile</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+       <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Terminal+Dosis' type='text/css'>
+       <link rel="stylesheet" href="CSS/defaultCss.css" />
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+   </head>
+   <body>
+       <div data-role="page" id="home1" data-theme="a">
+       <div data-role="header">
+			<h1>My Portfolio</h1>
+           <a href="#" data-role="button" data-rel="back" data-theme="b">Back</a>
+			<div data-role="navbar">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="aboutMe.html" class="ui-btn-active  ui-statepersist">About	Me</a></li>
+                    <li><a href="ContactMe.html">Contact	Me</a></li>
+                </ul>
+			</div>
+		</div>
+       <div data-role="content">
+         <div id="app-pic"><img src="images/Capture.PNG" alt="My logo" /></div>
+         <div id="app-name">
+			<h4>Portfolio Programmer</h4>
+		 </div>
+         
+            <div id="app-contact">
+           <ul data-role="listview" data-theme="a" data-divider-theme="a" data-inset="true">
+             <li data-role="list-divider">Project&Service</li>
+               <li>
+                   <a href="project.html">
+                       <img src="images/Poof.png" alt="project" />
+                       <h3>Project</h3>
+                   </a>
+               </li>
+             <li>
+                   <a href="Service.html">
+                       <img src="images/smartRSS.png" alt="service" />
+                       <h3>Service</h3>
+                   </a>
+               </li>
+			   <li>
+                   <a href="signin.htm" rel="external">
+                       <img src="images/smartRSS.png" alt="service" />
+                       <h3>Business Contact</h3>
+                   </a>
+               </li>
+           </ul>
+         </div>
+         
+         <div id="app-work">
+             <ul data-role="listview" data-theme="d" data-divider-theme="e" data-inset="true">
+                 <li data-role="list-divider">My Videos</li>
+                 <li data-theme="e">
+                     <a href="#videos">
+                         <h3>View my videos</h3>
+                         <div>Check out my latest work</div>
+                     </a>
+                 </li>
+             </ul>
+        </div>
+        <div id="app-interests">
+            <ul data-role="listview" data-theme="d" data-divider-theme="e" data-inset="true">
+             <li data-role="list-divider">Welcome to my website</li>
+             <li>
+                 <div data-role="collapsible">
+                 <h3>Welcome to my website</h3>
+                <div>I have spent the last eight months cultivating my knowledge in Computer Programming Analyst focusing on website and software development at Georgian College.</div>
+              </div>
+             </li>
+             <li>
+                 <div data-role="collapsible">
+                <h3>Mission	Statement.</h3>
+                <div>I created this website to improve my web programming skills.</div>
+                <div>Another reason why I created this website is that I like web programming.</div>
+                <div>The last reason why I created this website is that I want to show people my JQuery mobile skill</div>
+                </div>
+             </li>
+             <li>
+               <h3>GitHub</h3>
+               <a href="https://github.com/JingXianHe/project1.1">Download From GitHub</a>
+             </li>
+           </ul>
+          
+        </div>
+        <div id="app-social">
+          <ul data-role="listview" data-theme="d" data-divider-theme="b" data-inset="true">
+            <li data-role="list-divider">Social</li>
+            <li>
+              <h3>Twitter - <a href="https://twitter.com/JingXianHe">Follow me!</a></h3>
+              <p>loading twitter feed...</p>
+            </li>
+            <li>
+              <h3>Find me on Google+</h3>
+              <p>
+                <a href="http://www.google.ca">
+                  <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+                 </a>
+               </p>
+             </li>
+             <li>
+               <h3><a href="https://www.facebook.com/ho.jingxian.7">Friend me</a> on Facebook</h3>
+               <p>The world is a better place when we are all friends.</p>
+             </li>
+           </ul>
+         </div>
+       </div>
+       <div data-role="footer" data-position="fixed">
+             <div data-role="navbar">
+				<ul>
+					<li><a>&#169; 2013 JingXian He</a></li>
+				</ul>
+			</div>
+         </div>
+     </div>
+       <div data-role="page" id="videos">
+           <div data-role="header">
+               <a href="#home1" data-rel="back">Back</a><h1>Videos</h1>
+           </div>
+           <div data-role="content">
+               <div class="video" data-role="collapsible" data-collapsed="false" data-content-theme="a">
+                   <h3>YouTube</h3>
+                   <iframe width="100%" height="100%" src="http://www.youtube.com/embed/3PfmxiXArow?" frameborder="0" allowfullscreen></iframe>
+               </div>
+               <a href="#home1" data-rel="back" data-theme="b" data-role="button" data-icon="arrow-l">Go Back</a>
+           </div>
+       </div>
+   </body>
+ </html>

@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Fetchingly 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130903
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" />
+<link href="css2/default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<script>
+
+var ua = navigator.userAgent;
+ if ((ua.match(/iPhone/i)) || (ua.match(/Android/i))) {
+	
+	
+    location.replace("http://webdesign4.georgianc.on.ca/~200238257/comp2068/project1/Home.html");
+ }
+</script>
+<script>
+function validateTitle(field) {
+	if (field == "") return "No title was entered."
+	return ""
+}
+
+function validateDescription(field) {
+	if (field == "") return " No password was entered."
+	return ""
+}
+
+function validatePassage(field) {
+	if (field == "") return " No address was entered."
+	return ""
+}
+
+function validateName(field){
+	if (field == "") return " No email was entered."
+	return ""
+}
+
+
+
+function validate(form)
+{
+
+	fail=validateName(form.email.value)
+	fail += validateDescription(form.password.value)
+	
+	if(fail=="")return true
+	else {alert(fail); return false}
+}
+</script>
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="#">Fetchingly</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="Home.html" title="">Homepage</a></li>
+				<li class="icon icon-ok"><a href="index1.html" accesskey="2" title="">About Me</a></li>
+				<li class="icon icon-ok"><a href="index2.html" accesskey="3" title="">Projects</a></li>
+				<li class="icon icon-ok"><a href="index3.html" accesskey="4" title="">Service</a></li>
+                <li class="icon icon-ok"><a href="https://github.com/JingXianHe/port-folio-web" accesskey="4" title="">GitHub</a></li>
+				<li class="icon icon-ok"><a href="index4.html" accesskey="5">Contact Me</a></li>
+				<li class="icon icon-ok"><a href="signin.htm" accesskey="6"><img src="images1/cloud_64x64.png" width="20" height="20"/>Business Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+		<!-- ****************************************************************************************************************** -->
+			
+			<div>
+				
+						<table id="login" Border="1" >
+			<th colspan="2" align="center"><h2>Login Information</h2></th>
+
+			<form method="post" action="validate.php" onSubmit="return validate(this)">
+			<tr>
+				<td>
+					<label><h2>Email:</h2></label>
+				</td>
+				<td>
+					<input name="email" style="width: 185px; height: 25px"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label><h2>Password:</h2></label>
+				</td>
+				<td>	
+					<input name="password" type="password" style="width: 184px; height: 24px" />
+				</td>
+			</tr>
+			<tr><td colspan="2" align="center">
+				<input   type="submit"  value="SignIn" class="auto-style1" style="width: 168px"  /></td>
+			</tr>
+			
+
+			</form>
+			</table>
+			</div>
+			
+			
+
+		<!-- ****************************************************************************************************************** -->
+
+
+
+<div id="copyright" class="container">
+	<p>Copyright (c) 2013 All rights reserved. | Photos by JingXian He | Design by <a href="https://github.com/JingXianHe" rel="JingXian He">JingXian He</a>.</p>
+</div>
+</body>
+</html>
